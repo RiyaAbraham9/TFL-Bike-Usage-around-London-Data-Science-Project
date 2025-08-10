@@ -1,13 +1,14 @@
 # TFL-Bike-Usage-around-London-Data-Science-Project
-This project analyses real-world Transport for London (TfL) bike usage data to uncover patterns, trends, and insights into cycling activity across London. Using data science techniques, we explore temporal usage patterns, popular docking stations, and factors influencing demand.
-
-The goal is to showcase data cleaning, exploratory data analysis (EDA), visualisation, and modelling skills using a real-world public dataset.
+This project analyses TfL cycling volume data from three selected monitoring sites across London to investigate usage patterns and suggest possible peak charging periods.
+The analysis follows a structured, step-by-step approach, from data aggregation to visualisation and machine learning modelling using a Decision Tree Regressor. The results aim to answer the question:
+"If TfL were to introduce a charging regime for peak cycle traffic, when should it apply?"
 
 ## Objectives
-- Understand how and when Londoners use TfL bikes.
-- Identify peak hours, high-demand locations, and seasonal variations.
-- Create data visualisations to make patterns easy to understand.
-- Build simple predictive models to forecast bike demand.
+- Aggregate TfL cycle traffic data for three specific monitoring sites.
+- Explore traffic patterns by time of day and overall trends.
+- Calculate average usage per timeslot to simplify visual interpretation.
+- Apply machine learning to identify potential peak periods for charging.
+- Assess whether the results could realistically inform a TfL charging policy.
 
 ## Tools and Technologies
 - Python (Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn)
